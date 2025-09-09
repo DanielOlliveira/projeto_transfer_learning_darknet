@@ -31,3 +31,10 @@ Após o treinamento, o modelo pode ser testado em imagens reais para verificar a
 
 ```bash
 ./darknet detector test obj.data yolov3.cfg backup/yolov3_last.weights test_image.jpg -dont_show
+
+📌 Observações
+O treinamento foi interrompido manualmente após cerca de 1h30, com pesos salvos para futuras inferências
+
+O projeto pode ser retomado a qualquer momento com os pesos salvos
+
+A estrutura foi pensada para facilitar ajustes e reuso em outros conjuntos de dados
